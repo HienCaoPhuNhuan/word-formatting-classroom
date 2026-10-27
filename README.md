@@ -12,15 +12,15 @@ Hoặc tải mã nguồn, giải nén và mở `index.html`. Không cần build,
 
 - Phần tiếp / trước: PageDown / PageUp, các phím mũi tên. Space sang phần tiếp.
 - Home / End: đầu / cuối bài; M: mục lục; F: toàn màn hình; B hoặc dấu chấm: che màn hình.
-- Ví dụ tự chạy ngay khi mở phần; mỗi bước giữ 7 giây và dừng ở kết quả cuối. Gợi ý và cách tự kiểm tra luôn hiển thị.
-- P: dừng / tiếp tục; R: chạy lại từ đầu và tự chạy; S: bước tiếp theo và dừng; − / +: đổi thời gian giữ bước giữa 5, 7, 10 giây.
+- Ví dụ tự chạy ngay khi mở phần; mỗi thao tác giữ 1,7 giây và dừng ở kết quả cuối. Gợi ý và cách tự kiểm tra luôn hiển thị. S/A xem bước sau/trước không cần chuột.
+- P: dừng / tiếp tục; R: chạy lại từ đầu và tự chạy; S: bước tiếp theo và dừng; − / +: đổi thời gian giữ bước giữa 1 / 1,7 / 2,5 / 4 giây.
 - Phần phối hợp định dạng cũng tự chạy, không cần điều chỉnh bằng chuột.
 - Khi con trỏ ở ô nhập / danh sách chọn, phím điều hướng dành cho ô đó. Nhấn Esc để trả điều khiển cho bút.
 - Liên kết `#18` mở trực tiếp phần 18. Chế độ Netop được lưu trên máy hiện tại nếu trình duyệt cho phép.
 
 ## Nội dung và nguồn
 
-Biên soạn dựa trên **GIÁO TRÌNH MOS WORD 2019 - 2526**, Trường THPT Phú Nhuận, Tổ Tin học: trang in 17–30, 37–40; bổ sung giải thích và thực hành. Không đính kèm PDF lưu hành nội bộ.
+Biên soạn dựa trên **GIÁO TRÌNH MOS WORD 2019 - 2526**, Trường THPT Phú Nhuận, Tổ Tin học: trang in 17–30, 37–40; bổ sung giải thích và thực hành. Không đính kèm PDF lưu hành nội bộ. Chỉ các ảnh giao diện Word được trích từ giáo trình và đánh dấu bằng SVG trên web; không sửa nội dung ảnh gốc.
 
 Mô phỏng HTML/CSS giải thích thuộc tính tương đối, không tái tạo chính xác dàn trang Word. Kiến thức bổ sung được phân biệt trên màn hình và liệt kê ở phần cuối.
 
@@ -32,7 +32,7 @@ Mô phỏng HTML/CSS giải thích thuộc tính tương đối, không tái t�
 
 ## Trình chiếu qua Netop
 
-Mở trang trên máy giáo viên, bật toàn màn hình, sử dụng chức năng trình diễn màn hình giáo viên của phiên bản Netop tại phòng máy. **Chế độ Netop bật sẵn**: tắt chuyển động CSS, bỏ bóng đổ; ví dụ tự đổi từng trạng thái sau 7 giây. Chỉnh bằng − / + (5 / 7 / 10 giây). Mở mục lục, che màn hình hoặc chuyển sang tab khác sẽ tạm dừng; quay lại sẽ tiếp tục nếu trước đó đang chạy. Không video nền, âm thanh, thư viện hoặc tài nguyên CDN. Không thu thập dữ liệu học sinh. Chưa kiểm thử trên hệ thống Netop cụ thể của trường.
+Mở trang trên máy giáo viên, bật toàn màn hình, sử dụng chức năng trình diễn màn hình giáo viên của phiên bản Netop tại phòng máy. **Chế độ Netop bật sẵn**: tắt chuyển động CSS, bỏ bóng đổ; ví dụ tự đổi từng trạng thái sau 1,7 giây. Chỉnh bằng − / + (1 / 1,7 / 2,5 / 4 giây). Mở mục lục, che màn hình hoặc chuyển sang tab khác sẽ tạm dừng; quay lại sẽ tiếp tục nếu trước đó đang chạy. Không video nền, âm thanh, thư viện hoặc tài nguyên CDN. Không thu thập dữ liệu học sinh. Chưa kiểm thử trên hệ thống Netop cụ thể của trường.
 
 ## Cấu trúc
 
@@ -42,3 +42,7 @@ Mở trang trên máy giáo viên, bật toàn màn hình, sử dụng chức n�
 - `app.js`: điều hướng, tự chạy, phòng thử và tải văn bản thực hành.
 
 Bật Pages ở **Settings → Pages → Deploy from a branch → main → /(root)**. Không cần GitHub Actions.
+
+## Bản hướng dẫn thao tác chi tiết
+
+Ảnh lệnh và hộp thoại có khung đỏ xác định vị trí bấm/chọn/nhập. Mỗi thao tác là một trạng thái riêng; cuối quy trình hiển thị kết quả định dạng. Ảnh lấy từ giáo trình, có thể khác nhẹ giao diện Word của máy sử dụng. Đã bỏ các phần Bảng phím tắt, Sẵn sàng cho giờ dạy, Tài liệu nền và bảng tự kiểm tra cuối bài. Drop Cap và Columns là hai phần riêng. `guides.js` chứa toàn bộ quy trình và tọa độ đánh dấu; `assets/word/` chứa ảnh gốc.

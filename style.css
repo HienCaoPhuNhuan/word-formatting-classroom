@@ -10,3 +10,28 @@
 .netop .demo-tools{gap:.45em;font-size:.63em}
 #speed-label{color:var(--muted);font-weight:600}
 @media(min-width:1051px){.netop .demo .canvas{min-height:220px}.netop .demo .sheet{min-height:200px}}
+
+/* Khung hướng dẫn nhìn thấy chính xác nơi bấm trong Word */
+.grid{grid-template-columns:.77fr 1.23fr;gap:2.2vw}
+.demo .canvas{padding:.5em;background:#e6e9ea;min-height:0!important}
+.demo .photo-sheet{padding:0;min-height:0!important;background:#fff}
+.photo-label{font:700 11px "Segoe UI",Arial,sans-serif;letter-spacing:.6px;padding:7px 10px;color:#566873;background:#f5f6f4;border-bottom:1px solid #d9dfdd}
+.shot-stage{height:clamp(255px,37vh,420px);padding:8px 12px;background:#fff}
+.shot-stage svg{display:block;width:100%;height:100%;overflow:hidden}
+.demo .result-sheet{min-height:clamp(255px,37vh,420px)!important;padding:1.4em;font-size:1em}
+.demo-caption{display:flex;align-items:flex-start;gap:.7em;font-size:.85em;font-weight:650;min-height:4.7em;background:#e4f1ea;padding:.7em .8em}
+.action-index{border-radius:50%;background:#db3926;color:#fff;min-width:1.8em;height:1.8em;display:grid;place-items:center;flex:none;font:700 .9em "Segoe UI",Arial}
+.key-stage{height:clamp(255px,37vh,420px);padding:1.4em;background:#fff;display:flex;flex-direction:column;justify-content:center;gap:1em}
+.key-caps{display:flex;align-items:center;gap:.35em;flex-wrap:wrap;font-size:1em}.key-caps kbd{padding:.45em .65em;background:#edf3f7}
+.input-preview{white-space:pre-wrap;line-height:1.7;padding:1em;border:1px solid #d2dbde;max-height:60%;overflow:auto}
+.procedure-summary{margin:.65em 0;padding:.7em;border:1px solid #bed4cb;background:#f3faf6;border-radius:7px;font-size:.75em;line-height:1.45}
+.procedure-summary b,.procedure-summary span{display:block}.procedure-summary b{color:#08796f;margin-bottom:.25em}
+.netop .demo-tools{font-size:.63em}.demo-tools .state-count{font-weight:700;color:#08796f}
+.netop .practice{font-size:.7em}.netop .answer{font-size:1em}
+@media(min-width:1051px) and (max-height:850px){h1{font-size:32px}.lead{font-size:.84em}.shot-stage,.key-stage{height:265px}.demo .result-sheet{min-height:265px!important}.concept{font-size:.82em}.steps li{font-size:.78em}.tip{font-size:.71em}.procedure-summary{font-size:.7em;padding:.45em}.demo-caption{font-size:.8em}.netop .practice{font-size:.67em}}
+@media(max-width:1050px){.grid{grid-template-columns:.8fr 1.2fr}.shot-stage,.key-stage{height:285px}}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.shot-stage,.key-stage{height:300px}.demo .result-sheet{min-height:250px!important}.demo-caption{font-size:.88em}}
+
+.menu-replica{border:1px solid #9faeb6;background:#fff;width:80%;max-width:380px;box-shadow:3px 4px 0 #d3d9db;font:20px 'Segoe UI',Arial,sans-serif}.menu-replica>div{padding:.4em .8em}.menu-replica .menu-target{outline:3px solid #e13b25;background:#e2edf8;font-weight:700}
+
+@media(min-width:1051px){.exercise .card{padding:.8em}.exercise .sheet{padding:.5em;font-size:.75em!important}.exercise .answer{padding:.5em}.exercise h3{margin:.35em 0}}
