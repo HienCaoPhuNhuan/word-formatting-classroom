@@ -35,3 +35,5 @@
 .menu-replica{border:1px solid #9faeb6;background:#fff;width:80%;max-width:380px;box-shadow:3px 4px 0 #d3d9db;font:20px 'Segoe UI',Arial,sans-serif}.menu-replica>div{padding:.4em .8em}.menu-replica .menu-target{outline:3px solid #e13b25;background:#e2edf8;font-weight:700}
 
 @media(min-width:1051px){.exercise .card{padding:.8em}.exercise .sheet{padding:.5em;font-size:.75em!important}.exercise .answer{padding:.5em}.exercise h3{margin:.35em 0}}
+
+.worksheet-download{display:inline-block;padding:.6em .9em;border:1px solid #08796f;border-radius:8px;color:#075e56;font-weight:700;text-decoration:none;font-size:.75em;background:#fff}.header-tools .worksheet-download{font-size:.7em;white-space:nowrap}.practice-result-sheet{font-size:.82em}.practice-result-sheet p{margin-top:0}.practice button{margin-top:.5em;font-size:.85em}

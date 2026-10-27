@@ -46,3 +46,7 @@ Bật Pages ở **Settings → Pages → Deploy from a branch → main → /(roo
 ## Bản hướng dẫn thao tác chi tiết
 
 Ảnh lệnh và hộp thoại có khung đỏ xác định vị trí bấm/chọn/nhập. Mỗi thao tác là một trạng thái riêng; cuối quy trình hiển thị kết quả định dạng. Ảnh lấy từ giáo trình, có thể khác nhẹ giao diện Word của máy sử dụng. Đã bỏ các phần Bảng phím tắt, Sẵn sàng cho giờ dạy, Tài liệu nền và bảng tự kiểm tra cuối bài. Drop Cap và Columns là hai phần riêng. `guides.js` chứa toàn bộ quy trình và tọa độ đánh dấu; `assets/word/` chứa ảnh gốc.
+
+## Bài thực hành đồng bộ
+
+Tải downloads/Van_ban_mau_va_yeu_cau_thuc_hanh_Word.docx: 34 bài cho section 2–35, gồm văn bản thô và yêu cầu ngay dưới mỗi mẫu. practice.js là dữ liệu chung cho mẫu và kết quả đối chiếu. Phím K đưa tới kết quả của section hiện tại; kết quả cũng xuất hiện sau chuỗi minh họa tự chạy. Mỗi bài làm độc lập để các yêu cầu đối lập không ghi đè lên nhau.
