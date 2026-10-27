@@ -2,3 +2,11 @@
 @media(min-width:1550px){.canvas{min-height:330px}.sheet{min-height:290px}}
 @media(min-width:1051px) and (max-height:950px){body{font-size:clamp(18px,1.4vw,21px)}header{height:64px}main{height:calc(100dvh - 119px);padding:2vh 4vw}footer{height:55px}h1{font-size:36px}.lead{margin-bottom:1.6vh}.steps{margin:.65em 0}.steps li{margin:.45em 0}.tip{margin-top:.65em}.practice{margin-top:.65em;padding-top:.5em}.canvas{min-height:230px;padding:.8em}.sheet{min-height:210px}.hero h1{font-size:60px}}
 @media(max-width:1050px){.keys{display:none}main{padding:2vh 3vw}.grid{gap:2vw;grid-template-columns:1fr 1fr}.header-tools{font-size:12px}h1{font-size:34px}.canvas{padding:.7em}.sheet{padding:.9em;font-size:.86em}header{height:72px}main{height:calc(100dvh - 137px)}}@media(max-width:760px){body{font-size:18px}.grid,.comparison,.shortcuts{grid-template-columns:1fr}.brand small{display:none}.brand>span{font-size:12px}.brand{font-size:24px}.header-tools{gap:4px}.header-tools button{font-size:11px;padding:7px}header{padding:0 12px}main{padding:20px 16px}.lead{font-size:.9em}.hero h1{font-size:42px}.hero .card .big{font-size:3em}#chapter{max-width:35%;font-size:11px}#toc{grid-template-columns:1fr}.sheet{font-size:1em}.canvas{min-height:230px}.practice{font-size:.85em}.source{font-size:.67em}}@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}@media print{header,footer,.demo-tools,.header-tools,.practice button,dialog,#blackout,#notice{display:none!important}body{background:white;font-size:14pt}main{height:auto;overflow:visible;padding:0}article{break-after:page;padding:1cm}.grid{grid-template-columns:1fr 1fr;gap:1cm}.card{box-shadow:none}h1{font-size:28pt}.canvas{min-height:0}.sheet{min-height:0}.print-only{display:block}.source{font-size:9pt}}
+
+/* Trình chiếu qua mạng chậm: không chuyển động liên tục, gợi ý luôn hiển thị. */
+.netop .source{display:none}.netop .card,.netop .sheet{box-shadow:none}
+.netop .answer{font-size:.96em;padding:.45em .65em;margin-top:.4em}
+.netop .practice{margin-top:.55em;padding-top:.45em}
+.netop .demo-tools{gap:.45em;font-size:.63em}
+#speed-label{color:var(--muted);font-weight:600}
+@media(min-width:1051px){.netop .demo .canvas{min-height:220px}.netop .demo .sheet{min-height:200px}}

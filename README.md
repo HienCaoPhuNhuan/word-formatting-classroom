@@ -12,8 +12,10 @@ Hoặc tải mã nguồn, giải nén và mở `index.html`. Không cần build,
 
 - Phần tiếp / trước: PageDown / PageUp, các phím mũi tên. Space sang phần tiếp.
 - Home / End: đầu / cuối bài; M: mục lục; F: toàn màn hình; B hoặc dấu chấm: che màn hình.
-- P: chạy / dừng ví dụ; R: đưa ví dụ về bước đầu. Ví dụ tự chạy theo bước, dừng khi kết thúc, khi đổi tab hoặc chuyển phần.
-- Khi con trỏ ở ô nhập / danh sách chọn, phím điều hướng dành cho ô đó. Nhấp vùng trống để tiếp tục dùng bút.
+- Ví dụ tự chạy ngay khi mở phần; mỗi bước giữ 7 giây và dừng ở kết quả cuối. Gợi ý và cách tự kiểm tra luôn hiển thị.
+- P: dừng / tiếp tục; R: chạy lại từ đầu và tự chạy; S: bước tiếp theo và dừng; − / +: đổi thời gian giữ bước giữa 5, 7, 10 giây.
+- Phần phối hợp định dạng cũng tự chạy, không cần điều chỉnh bằng chuột.
+- Khi con trỏ ở ô nhập / danh sách chọn, phím điều hướng dành cho ô đó. Nhấn Esc để trả điều khiển cho bút.
 - Liên kết `#18` mở trực tiếp phần 18. Chế độ Netop được lưu trên máy hiện tại nếu trình duyệt cho phép.
 
 ## Nội dung và nguồn
@@ -30,7 +32,7 @@ Mô phỏng HTML/CSS giải thích thuộc tính tương đối, không tái t�
 
 ## Trình chiếu qua Netop
 
-Mở trang trên máy giáo viên, bật toàn màn hình, sử dụng chức năng trình diễn màn hình giáo viên của phiên bản Netop tại phòng máy. Chọn **Chế độ Netop** để tắt chuyển động CSS. Ví dụ chỉ thay đổi từng trạng thái sau 3,5 / 5 / 7 giây khi giáo viên chủ động bật. Không video nền, âm thanh, thư viện hoặc tài nguyên CDN. Không thu thập dữ liệu học sinh. Chưa kiểm thử trên hệ thống Netop cụ thể của trường.
+Mở trang trên máy giáo viên, bật toàn màn hình, sử dụng chức năng trình diễn màn hình giáo viên của phiên bản Netop tại phòng máy. **Chế độ Netop bật sẵn**: tắt chuyển động CSS, bỏ bóng đổ; ví dụ tự đổi từng trạng thái sau 7 giây. Chỉnh bằng − / + (5 / 7 / 10 giây). Mở mục lục, che màn hình hoặc chuyển sang tab khác sẽ tạm dừng; quay lại sẽ tiếp tục nếu trước đó đang chạy. Không video nền, âm thanh, thư viện hoặc tài nguyên CDN. Không thu thập dữ liệu học sinh. Chưa kiểm thử trên hệ thống Netop cụ thể của trường.
 
 ## Cấu trúc
 
